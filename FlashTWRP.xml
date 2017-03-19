@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flashtool-config version="2.0">
+    <general>
+        <chip-name>MT6795</chip-name>
+        <storage-type>EMMC</storage-type>
+        <download-agent>C:\Program Files\LeEco AIO Toolkit By Rishabh Rao\Devices\X507\SPFlashTools\DA_PL.bin</download-agent>
+        <scatter>C:\Program Files\LeEco AIO Toolkit By Rishabh Rao\Devices\X507\MT6795_Android_scatter_x507.txt</scatter>
+        <authentication></authentication>
+        <certification></certification>
+        <rom-list>
+            <rom index="0" enable="false"></rom>
+            <rom index="7" enable="false"></rom>
+            <rom index="8" enable="false"></rom>
+            <rom index="9" enable="true">C:\Program Files\LeEco AIO Toolkit By Rishabh Rao\Devices\X507\recovery.img</rom>
+            <rom index="10" enable="false"></rom>
+            <rom index="12" enable="false"></rom>
+            <rom index="20" enable="false"></rom>
+            <rom index="21" enable="false"></rom>
+            <rom index="22" enable="false"></rom>
+            <rom index="23" enable="false"></rom>
+            <rom index="24" enable="false"></rom>
+        </rom-list>
+        <connection type="BromUSB" high-speed="true" power="AutoDetect" da_log_level="Info" timeout-count="3600000" com-port="" />
+        <checksum-level>none</checksum-level>
+    </general>
+    <commands>
+        <download-only>
+            <da-download-all />
+        </download-only>
+    </commands>
+</flashtool-config>
